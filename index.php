@@ -102,17 +102,14 @@ $texts= [
 <main>
     <div class="container">
 
-        <?php foreach($texts as $text) { ?>
+        <?php
+        foreach($texts as $text){ ?>
 
-            <?php foreach($text as $txt) { ?>
-                <p class="mt-3">
-                    <?php echo $txt ?>
-                </p>
-            <?php } ?>
-      
+        <h3><?php echo $text['question']; ?></h3>
+        <p><?php echo $text['answer']; ?></p>
 
-
-        <?php } ?>
+        <?php }
+        ?>
 
 
     </div>
