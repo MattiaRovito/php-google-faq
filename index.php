@@ -65,30 +65,33 @@ $texts= [
     
 <!-- header -->
 <header>
+    <div class="container">
+        <div class="header-top d-flex">
+            <div class="logo">
+                <img src="img/google.png" alt="logo" >
+                <span>Privacy e termini</span>
+            </div>
 
-    <div class="header-top d-flex">
-        <div class="logo">
-            <img src="img/google.png" alt="logo" >
-            <span>Privacy e termini</span>
+            <div class="bars d-flex">
+                <i class="fas fa-bars"></i>    
+                <span>M</span>
+            </div>
+        
         </div>
 
-        <div class="bars d-flex">
-            <i class="fas fa-bars"></i>    
-            <span>M</span>
+
+        <div class="header-bottom ">
+            <ul class="d-flex mt-3">
+                <li>Introduzione</li>
+                <li>Norme sulla privacy</li>
+                <li>Termini di servizio</li>
+                <li>Tecnologie</li>
+                <li class="active">Domande frequenti</li>
+            </ul>
         </div>
-       
     </div>
 
-
-    <div class="header-bottom ">
-        <ul class="d-flex mt-3">
-            <li>Introduzione</li>
-            <li>Norme sulla privacy</li>
-            <li>Termini di servizio</li>
-            <li>Tecnologie</li>
-            <li class="active">Domande frequenti</li>
-        </ul>
-    </div>
+    
 
 </header>
 <!-- /header -->
@@ -100,7 +103,7 @@ $texts= [
     <div class="container">
 
         <?php foreach($texts as $text) { ?>
-       
+
             <?php foreach($text as $txt) { ?>
                 <p class="mt-3">
                     <?php echo $txt ?>
@@ -120,8 +123,28 @@ $texts= [
 
 
 <!-- footer -->
-<footer>
+<footer class="d-flex justify-content-around">
+    <div>
+        <ul class="d-flex">
+            <li><a href="#" class="text-decoration-none">Google</a></li>
+            <li><a href="#" class="text-decoration-none">Tutto su Google</a></li>
+            <li><a href="#" class="text-decoration-none">Privacy</a></li>
+            <li><a href="#" class="text-decoration-none">Termini</a></li>
+        </ul>
+    </div>
 
+
+    <div>
+    <select class="form-select" aria-label="Default select example">
+        <option selected>Scegli la lingua</option>
+        <option value="1">Italiano</option>
+        <option value="2">Inglese</option>
+        <option value="3">Spagnolo</option>
+        <option value="3">Tedesco</option>
+        <option value="3">Francese</option>
+    </select>
+
+    </div>
 
 
 </footer>
