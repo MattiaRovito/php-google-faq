@@ -134,9 +134,9 @@ $texts= [
     </div>
 
 
-    <div>
+    <div class="d-flex">
+    <i class="fas fa-globe mt-2 me-3"></i>
     <select class="form-select" aria-label="Default select example">
-        <option selected>Scegli la lingua</option>
         <option value="1">Italiano</option>
         <option value="2">Inglese</option>
         <option value="3">Spagnolo</option>
