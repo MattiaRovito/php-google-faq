@@ -37,8 +37,56 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 </head>
 <body>
     
+<!-- header -->
+<header>
+
+    <div class="header-top d-flex">
+        <div class="logo">
+            <img src="img/google.png" alt="logo" >
+            <span>Privacy e termini</span>
+        </div>
+
+        <div class="bars d-flex">
+            <i class="fas fa-bars"></i>    
+            <span>M</span>
+        </div>
+       
+    </div>
 
 
+    <div class="header-bottom ">
+        <ul class="d-flex mt-3">
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li class="active">Domande frequenti</li>
+        </ul>
+    </div>
+
+</header>
+<!-- /header -->
+
+
+
+<!-- main -->
+<main>
+
+
+</main>
+<!-- /main -->
+
+
+
+
+
+<!-- footer -->
+<footer>
+
+
+
+</footer>
+<!-- /footer -->
 
 
 </body>

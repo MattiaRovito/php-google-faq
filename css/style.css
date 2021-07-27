@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* commons */
+
+ul li
+{
+    margin-top: 6px;
+    list-style: none;
+    margin-left: 18px;
+    color: grey;
+    font-weight: bold;
+}
+
+
+
+
+/* header */
+header
+{
+    height: 100px;
+    border: 1px solid black;
+    position: static;
+    top: 0;
+    left: 0;
+    padding: 15px;
+}
+
+
+.logo span
+{
+    color: grey;
+    font-size: 24px;
+}
+
+.bars i
+{
+    margin-top: 10px;
+}
+
+
+
+.bars span
+{
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 20px;
+    color: white;
+}
+
+
+img
+{
+    width: 6%;
+}
+
+
+.active
+{
+    border-bottom: 3px solid blue;
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* main */
